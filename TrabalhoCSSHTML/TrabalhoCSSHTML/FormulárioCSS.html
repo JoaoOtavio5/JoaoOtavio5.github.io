@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Formulário de Contato</title>
+    <link rel="icon" href="Favicons(1).ico" sizes="16x16">
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+        input[type='text'],
+        input[type='email'],
+        input[type='password'],
+        input[type='color'],
+        input[type='date'],
+        input[type='number'],
+        input[type='range'],
+        input[type='url'] {
+            width: 100%;
+            border-radius: 15px;
+            height: 30px;
+            margin-bottom: 15px;
+            margin-top: 5px;
+        }
+
+        input[type="text"],
+        input[type="number"] {
+            width: 100%;
+            height: 20px;
+            margin-bottom: 10px;
+            margin-top: 5px;
+            border-top: 2px solid black;
+            border-bottom: 2px solid black;
+            border-left: 2px solid black;
+            border-right: 2px solid black;
+            outline: 0;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            color: white;
+            font-weight: bolder;
+            padding: 10px;
+            border: 0;
+            background: rgb(61, 122, 192);
+            font-size: large;
+            border-radius: 10px;
+
+        }
+
+        input[type="text"]:hover {
+            border-bottom: 1px solid lightslategray;
+        }
+
+        input[type="submit"]:hover {
+            background: linear-gradient(to right, lightblue, blue, darkblue);
+        }
+
+        input:hover {
+            background-color: lightblue;
+        }
+
+        label:hover {
+            color: rgb(47, 65, 83);
+        }
+
+        nav a:hover {
+            color: darkcyan;
+            text-decoration: underline;
+            font-size: larger;
+
+        }
+
+        nav a:active {
+            color: rgb(33, 199, 255);
+            text-decoration: none;
+
+        }
+
+        nav a:link {
+            color: rgb(33, 199, 255);
+            text-decoration: underline;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(208, 238, 248);
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            font-size: large;
+            letter-spacing: 5px;
+            margin: 0px;
+            font-family: "Roboto", sans-serif;
+        }
+
+
+
+        #text {
+            font-weight: bold;
+            font-family: "Roboto", sans-serif;
+            font-size: large;
+        }
+
+        #form {
+            border: 2px solid black;
+            height: auto;
+            align-items: center;
+            margin: auto;
+            margin-top: 10px;
+            display: flexbox;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 400px;
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: rgb(75, 75, 75) 13px 13px 19px;
+        }
+
+        #pagInicio {
+            display: flex;
+            justify-content: space-between;
+            font-size: xx-large;
+            width: 100%;
+            color: white;
+            text-decoration-color: rgb(33, 199, 255);
+            align-items: center;
+
+        }
+
+        #busca {
+            width: 150px;
+            height: 30px;
+        }
+
+        #linc {
+            color: white;
+            letter-spacing: 0px;
+            font-family: "Roboto", sans-serif;
+        }
+
+        #linc:hover {
+            color: black;
+            font-size: normal;
+        }
+
+        nav a:link {
+            color: rgb(33, 199, 255);
+            text-decoration: underline;
+        }
+
+        nav a:hover {
+            color: darkcyan;
+            text-decoration: underline;
+            font-size: larger;
+
+        }
+
+
+
+        body {
+            margin: 0;
+            background: radial-gradient(rgba(25, 239, 239, 0.479), rgb(80, 96, 241));
+
+        }
+
+        h2 {
+            background-image: linear-gradient(rgb(0, 0, 0), rgb(194, 188, 188));
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+
+        }
+
+        label {
+            color: rgb(0, 0, 0);
+            font-weight: bolder;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+
+        table {
+            background-color: rgb(61, 122, 192);
+            border-style: solid;
+            border-radius: 2px;
+            border-color: black;
+            font-family: 'Times New Roman', Times, serif;
+            color: white;
+            border: 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div id="pagInicio">
+            <a href="CreditosCSS.html"><img src="coruja.png"
+                    width="45%"></a>
+            <a href="TrabalhoCSS.html" class="text">Página Inicial</a>
+            <a href="LojinhaCSS.html"><img src="carrinmho.png" width="50px"></a>
+            <input type="text" id="busca" placeholder="Buscar">
+        </div>
+
+    </nav>
+    <div id="form">
+        <h1>Comentários, Dúvidas e Sugestões</h1>
+        <hr>
+        <br>
+        <form>
+            <a id="text">Nome:</a><br>
+            <input size="50" maxlength="50" minlength="5" required="" type="text" id="nome" name="nome"
+                placeholder="Digite seu nome (entre 5 e 50 caracteres)">
+
+            <br><br>
+            <a id="text">Data de Nascimento:</a><br>
+            <input type="date" id="dataNasc" name="dataNasc">
+
+
+            <br>
+            <br>
+
+            <label for="email"><a id="text">E-mail:</a> </label><br>
+            <input id="email" type="email" required placeholder="nome@email.com">
+            <br>
+
+            <br>
+            <label><a id="text">Escolha a(s) matéria(s) que possui dúvida:</a></label>
+            <br>
+
+            <input id="Artes" type="checkbox" value="Artes"><label for="Artes"><a id="text" id="lwbel">Artes</a></label>
+            <br>
+
+            <input id="Ciencias" type="checkbox" value="Ciencias"><label for="Ciencias"><a id="text" id="lwbel">Ciências
+                    Humanas ou da Natureza</a></label>
+            <br>
+
+            <input id="idiomas" type="checkbox" value="idiomas"><label for="idiomas"><a id="text"
+                    id="lwbel">Idiomas</a></label>
+            <br>
+
+            <input id="tecnologias" type="checkbox" value="tecnologias"><label for="tecnologias"><a id="text"
+                    id="lwbel">Tecnologias</a></label>
+
+            <br>
+            <br>
+
+            <label><a id="text">Sexo</a></label>
+            <input name="sexo" id="f" type="radio" value="f"><label for="f"><a id="text" id="lwbel">F</a></label>
+            <input name="sexo" id="m" type="radio" value="m"><label for="m"><a id="text">M</a></label>
+            <br>
+            <br>
+
+            <label><a id="text">Idade:</a></label><br>
+            <input type="number" id="idade" name="idade" required="" min="18" max="50" step="2" placeholder="18">
+            <br>
+            <br>
+
+            <label for="nivel"><a id="text">Dê uma nota para o seu nível de escolaridade
+                    <small><a>(0/10)</a></small>:</a></label>
+            <input id="nivel" type="range" name="nivel" min="0" max="10">
+            <br>
+            <br>
+            <a id="text">Comentário ou Sugestão:</a><br>
+            <a id="text"><textarea id="observacoes" name="observacoes" cols="50" rows="7" maxlength="240"
+                    spellcheck="false">Escreva seu comentário</textarea></a>
+
+            <br>
+            <br>
+
+            <a id="text">Dúvida:</a> <br>
+            <a id="text"><textarea id="duvida" name="duvida" cols="50" rows="6" maxlength="240"
+                    spellcheck="false">Envie sua dúvida</textarea></a>
+
+            <br>
+            <br>
+            <br>
+            <label for="butao"></label>
+            <input id="butao" type="submit">
+            <br>
+            <br>
+
+            <p><b>Recomendações de outros sites de Guia de Estudos Online</b></p>
+            <table border-style="solid" border="1px">
+                <tr>
+                    <th>Nome do Site</th>
+                    <th>URL</th>
+                </tr>
+                <tr>
+                    <td>Guia do Estudante</td>
+                    <td><a href="https://guiadoestudante.abril.com.br/estudo" id="linc">Clique aqui</a></td>
+                </tr>
+                <tr>
+                    <td>Meu Planner de Estudos</td>
+                    <td><a href="https://guiadoestudante.abril.com.br/estudo" id="linc">Clique Aqui</a></td>
+                </tr>
+                <tr>
+                    <td>Fabrício Assumpção</td>
+                    <td><a href="https://fabricioassumpcao.com/2020/04/guia-de-estudo-online-e-gratuito.html"
+                            id="linc">Clique
+                            Aqui</a></td>
+                </tr>
+            </table>
+            <br>
+            <br>
+        </form>
+    </div>
+
+</body>
+
+</html>
+
+<!--Feito por:
+    Rodrigo dos Santos Gumiero e
+    João Otávio Modenez Favaro-->
