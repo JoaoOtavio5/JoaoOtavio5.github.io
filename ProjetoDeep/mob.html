@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <title>Página Inicial</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" href="LogoDeep/1-ba82e4d9.ico">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+        body {
+
+            background-image: url(image.png);
+            background-size: 100%;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            color: white;
+        }
+
+        .bk_text {
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(48, 49, 53);
+            border-radius: 10px;
+            width: 75%;
+            margin-top: 40px;
+            margin-left: 13%;
+            padding: 20px;
+            margin-bottom: 120px;
+
+        }
+        
+        .roundimg{
+            border-radius: 10px;
+        }
+
+        .title {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            font-size: 100px;
+            font-family: "Cinzel", serif;
+        }
+
+        .big {
+            display: flex;
+            align-items: center;
+            margin-right: 5%;
+            font-family: "Cinzel", serif;
+
+        }
+        .contClass{
+            display: flex;
+            flex-direction: row;
+            padding: 20px;
+        }
+        .textImg{
+            padding-left: 2%;
+        }
+        #box {
+            display: flex;
+            font-weight: bolder;
+        }
+        #box :hover {
+            color: rgb(0, 146, 0);
+        }
+
+        a {
+            color: white;
+            font-weight: bolder;
+        }
+
+        a:hover {
+            color: rgb(0, 146, 0);
+            transform: scale(1.15);
+        }
+
+        @media(max-width: 412px) {
+            body {
+                color: rgb(0, 93, 0);
+            }
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="logo_resized.png"></a>
+            <div class="big">Deepwoken</div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <br>
+                    <li class="nav-item" id="box">
+                        <a class="nav-link active" aria-current="page"><u>Home</u></a>
+                    </li>
+                    <li class="nav-item" id="box">
+                        <a class="nav-link active" aria-current="page" href="mob.html">Inimigos</a>
+                    </li>
+                    <li class="nav-item" id="box">
+                        <a class="nav-link active" aria-current="page" href="locais.html">Locais</a>
+                    </li>
+                    <li class="nav-item" id="box">
+                        <a class="nav-link active" aria-current="page" href="hist.html">História</a>
+                    </li>
+                    <li class="nav-item" id="box">
+                        <a class="nav-link active" aria-current="page" href="att.html">Afinidades</a>
+                    </li>
+                    <li class="nav-item" id="box">
+                        <a class="nav-link active" aria-current="page" href="oath.html">Juramentos</a>
+                    </li>
+                    <li class="nav-item" id="box">
+                        <a class="nav-link active" aria-current="page" href="raca.html">Raças</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="O que você busca?" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <p class="title">Inimigos</p>
+    <div class="bk_text">
+        Em Deepwoken, as mecânicas de inimigos são desafiadoras e variadas, oferecendo uma experiência de combate intensa e estratégica. Os inimigos são projetados para exigir que o jogador use habilidades de combate precisas e pense em estratégias, pois cada tipo de inimigo tem padrões, fraquezas e comportamentos únicos.
+        <br>Aqui estão alguns elementos gerais das mecânicas de inimigos no jogo:
+        <br><br>
+        <ol>
+            <li>Padrões de Ataque e Animações:<br><br>
+            Cada inimigo possui um conjunto de ataques específicos e animações que indicam seus movimentos. Por exemplo, um inimigo pode levantar o braço antes de um golpe ou preparar um ataque carregado.
+            Aprender a "ler" essas animações é essencial, pois ajuda o jogador a prever o próximo ataque e reagir de forma adequada.
+            A maioria dos inimigos tem ataques que podem ser bloqueados, desviados ou interrompidos, e alguns ataques mais poderosos exigem o uso do "parry" (aparar) ou esquiva.
+            <br><br>
+            Dano em Área (AoE):<br><br>
+            Muitos inimigos, especialmente os de maior porte, têm ataques em área que podem afetar uma zona ao redor deles. Esses ataques são projetados para impedir que os jogadores fiquem muito próximos por muito tempo.
+            Para evitar ataques em área, o jogador deve prestar atenção ao alcance dos inimigos e se afastar no momento certo.
+            <br><br>
+            </li>
+            <li>Quebra de Defesa:<br><br>
+            Alguns inimigos têm ataques que podem quebrar a defesa do jogador, mesmo quando bloqueados, causando um "stagger" (atordoamento) ou empurrando o jogador para trás.
+            Jogadores precisam estar atentos a esses ataques e devem evitá-los ou desviar em vez de bloquear. Essa mecânica impede que o jogador dependa exclusivamente da defesa.
+            <br><br>
+            </li>
+            <li>Combate em Grupo:<br><br>
+            Muitos inimigos atacam em grupos, especialmente os inimigos menores ou humanoides, como os bandidos.
+            Grupos de inimigos podem cercar o jogador, o que torna o combate mais desafiador. Para lidar com isso, o jogador pode usar ataques de área ou eliminar os inimigos mais fracos primeiro para diminuir o número de ameaças.
+            <br><br>
+            <li>Níveis de Resistência e Vida
+            Os inimigos variam muito em resistência e saúde. Inimigos maiores, como Golems ou o Primadon, possuem alta defesa e saúde, o que faz com que o combate seja mais longo e exija que o jogador seja consistente e estratégico.
+            Alguns inimigos têm fraquezas específicas, como vulnerabilidades a certos tipos de dano (ex. físico, mágico), o que pode ser explorado pelos jogadores para derrotá-los mais rapidamente.
+            <br><br>
+            </li>
+            <li>Evasão e Contra-Ataque:<br><br>
+            Muitos inimigos têm movimentos de evasão que fazem com que eles se afastem do jogador após um ataque, ou então têm habilidades que reagem a ações do jogador, como contra-atacar.
+            A mecânica de contra-ataque dos inimigos desafia os jogadores a serem cuidadosos com seus próprios ataques e a aprender os momentos certos para atacar.
+            <br><br>
+            </li>
+            <li>Escala de Dificuldade por Região e Tipo:<br><br>
+            Em Deepwoken, diferentes áreas têm inimigos com escalas de dificuldade variadas. As regiões mais avançadas terão inimigos mais poderosos e agressivos.
+            Isso permite que jogadores iniciantes enfrentem inimigos mais fracos em áreas seguras e só progridam para regiões mais perigosas quando estiverem prontos.
+            <br><br>
+            </li>
+            <li>Habilidades Especiais e Elementais:<br><br>
+            Alguns inimigos têm habilidades elementais (como fogo, gelo ou eletricidade), que causam efeitos de status no jogador, como queimadura ou congelamento. Isso adiciona outra camada de dificuldade, pois o jogador deve evitar ser atingido por esses ataques ou ter habilidades defensivas contra o elemento.
+            Esses efeitos de status podem drenar a saúde ou energia do jogador ao longo do tempo, e lidar com esses inimigos exige que o jogador esteja preparado para neutralizar ou evitar esses ataques.
+            <br><br>
+            </li>
+            <li>Chefes e Mini-Chefes:<br><br>
+            Chefes e mini-chefes possuem mecânicas únicas e uma combinação de habilidades que desafiam até os jogadores mais experientes.
+            Eles frequentemente têm várias fases, onde seus padrões de ataque ou habilidades mudam à medida que perdem saúde, tornando o combate progressivamente mais difícil.
+            Em muitos casos, os chefes exigem que os jogadores usem o ambiente ao seu favor ou que cooperem com outros jogadores para serem derrotados.
+            <br><br>
+            </li>
+            <li>Recompensas e Loot:<br><br>
+            Inimigos mais fortes e chefes geralmente fornecem loot e recompensas melhores. Isso incentiva os jogadores a enfrentarem desafios maiores em busca de itens ou habilidades raras.
+            Além disso, os inimigos podem dropar itens específicos que o jogador pode usar para melhorar seu personagem ou desbloquear habilidades especiais.
+            Essas mecânicas tornam Deepwoken um jogo desafiador, onde cada inimigo apresenta um novo obstáculo e exige que os jogadores usem diferentes táticas para sobreviver. O jogo recompensa a habilidade, o tempo de reação e o conhecimento dos jogadores sobre as mecânicas de combate, criando uma experiência intensa e estratégica em cada encontro.
+            <br><br>
+            </li>
+        </ol>
+        <p>Os principais inimigos que você provavelmente encontrará na sua jornada serão:</p>
+        <hr>
+        <h1 class="big">Megalodaunt (Sharko):</h1>
+        <div class="contClass">
+            <img class="roundimg" src="sharkoex.png" width="400" height="518">
+            <div class="textImg">
+                Megalodaunt é um monstro gigante com forma de tubarão humanoide, encontrado comumente em Erisia, em barcos queimados no Mar Aratel, e nas Profundezas.
+                <br><br>
+                "Embora não pareçam criaturas particularmente inteligentes, eles possuem um forte senso de hierarquia social e sabem seu lugar em sua 'sociedade', se é que se pode chamar assim."<br>
+                — Diário do Arquivista: Megalodaunt
+                <br><br>
+                Os Megalodaunts são conhecidos por seu comportamento social, evidenciado pelo fato de que um Megalodaunt pode se tornar um Alfa dentro de seu grupo, embora seja mais comum vê-los sozinhos do que em grupos. Eles são criaturas bípedes, com pele pálida e um conjunto de corais nas costas, que parecem ser utilizados apenas para fins ofensivos. Documentados como carnívoros, possuem características condizentes com essa natureza, com duas fileiras de dentes afiados na boca, peles resistentes e garras impressionantes. Às vezes, eles são vistos devorando o corpo de um Soldado da Autoridade, confirmando sua natureza carnívora.
+                <br><br>
+                Normalmente encontrados na ilha de Erisia, os Megalodaunts são um dos primeiros monstros que a maioria dos novos jogadores encontra, juntamente com os Mudskippers. Jogadores que estão despreparados ou que não possuem conhecimento sobre este monstro tendem a ser derrotados em questão de segundos.
+                <br><br>
+                Os Megalodaunts são naturalmente hostis a todas as outras criaturas no Etrean Luminant e atacam à vista tanto por questões de sobrevivência quanto territoriais. Até o momento, nunca foram observados em confronto entre si, embora demonstrem uma forte hostilidade contra a Variante Carmesim do Megalodaunt.
+                <br><br>
+                Quando derrotados, deixam cair Pele de Megalodaunt e Modificadores de Mantra, com uma baixa chance de os modificadores de mantras de nível superior. Eles também podem deixar cair Obsidiana Umbral de maneira incomum e, raramente, um Coral de Megalodaunt ou um Casaco de Megalodaunt.
+                <br><br>
+                Além de serem encontrados vagando em diversos locais ou em cavernas específicas, os Megalodaunts podem ser atraídos com o uso de uma Isca de Megalodaunt.
+            </div>
+        </div>
+        <hr>
+        <h1 class="big">Thresher:</h1>
+        <div class="contClass">
+            <img class="roundimg" src="thresher.png" width="322" height="322">
+            <div class="textImg">
+                Os Threshers são crocodilianos hostis que surgem no Vale das Estrelas e nas Profundezas.<br>
+                Eles podem ser encontrados frequentemente como ameaças individuais ou em duplas com outro Thresher e, mais raramente, acompanhados do Rei Thresher, formando uma família de Threshers.<br>
+                Seu principal item de saque é a Espinha de Thresher, que pode ser usada para criar armaduras. Geralmente, há um baú de recompensa após derrotar esse monstro.
+                
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="card" data-bs-theme="dark">
+            <div class="card-header">
+                Acesso à comunidade e Contato
+            </div>
+            <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                    <p>
+                    <h6>Comunidade: <a href="https://discord.com/invite/deepwoken">Deepwoken Discord</a><br>Contato: 19
+                        99712-5652 <br> Não encontrou o que procura?
+                        Busque na wiki oficial do jogo: <a
+                            href="https://deepwoken.fandom.com/wiki/Deepwoken_Wiki">Deepwoken Wiki</h6>
+                    </p></a>
+                </blockquote>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>
