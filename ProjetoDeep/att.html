@@ -18,6 +18,7 @@
             background-image: url(bgfire.webp);
             background-attachment: fixed;
             background-repeat: no-repeat;
+            background-color: black;
             color: white;
             font-family: "Outfit", sans-serif;
             font-size: 16px;
@@ -98,11 +99,57 @@
             transform: scale(1.15);
         }
 
-        @media(max-width: 412px) {
+        /*Media Types*/
+
+        @media(max-width: 941px) or (max-height: 658) {
             body {
-                color: rgb(0, 93, 0);
+                background-color: radial-gradient(black, black,red );
+                background-image: none;
+
+            }
+            .title {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            font-size: 3em;
+            font-family: "Cinzel", serif;
+            }
+            .titleMin {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            font-size: 1.5em;
+            font-family: "Cinzel", serif;
+        }
+        }
+        @media(max-width: 1400px){
+
+            #box {
+            display: flex;
+            font-size: 13px;
+            padding-left: 0.5%;
+            font-weight: bolder;
             }
         }
+        @media(max-width: 1150px){
+
+            .big {
+            display: flex;
+            align-items: center;
+            margin-right: 0.2%;
+            font-family: "Cinzel", serif;
+            font-size: 1.2em;
+
+        }
+        }
+        @media(min-height: 759px) or (max-width:1300px){
+            body{
+                background-image: radial-gradient(green,rgb(0, 68, 3),rgb(1, 37, 0));;
+            
+                
+
+        }
+    }
 
 
     </style>
@@ -114,11 +161,20 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="logo_resized.png"></a>
             <div class="big">Deepwoken</div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <div class="dropdown">
+                <button class="navbar-toggler" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="index.html">Home</a></li>
+                    <li><a class="dropdown-item" href="mob.html">Inimigos</a></li>
+                    <li><a class="dropdown-item disabled" href="boss.html">Bosses</a></li>
+                    <li><a class="dropdown-item disabled" href="hist.html">História</a></li>
+                    <li><a class="dropdown-item" href="att.html">Afinidades</a></li>
+                    <li><a class="dropdown-item" href="oath.html">Juramentos</a></li>
+                    <li><a class="dropdown-item" href="raca.html">Raças</a></li>
+                </ul>
+            </div>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <br>
@@ -135,13 +191,13 @@
                         <a class="nav-link disabled" aria-current="page" href="hist.html">História</a>
                     </li>
                     <li class="nav-item" id="box">
-                        <a class="nav-link active" aria-current="page" href="#"><u>Afinidades</u></a>
+                        <a class="nav-link disabled" aria-current="page" href="att.html">Afinidades</a>
                     </li>
                     <li class="nav-item" id="box">
-                        <a class="nav-link active" aria-current="page" href="oath.html">Juramentos</a>
+                        <a class="nav-link active" aria-current="page" href="oath.html"><u>Juramentos</u></a>
                     </li>
                     <li class="nav-item" id="box">
-                        <a class="nav-link active" aria-current="page" href="raca.html">Raças</a>
+                        <a class="nav-link disabled" aria-current="page" href="raca.html">Raças</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -355,7 +411,7 @@
 
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
