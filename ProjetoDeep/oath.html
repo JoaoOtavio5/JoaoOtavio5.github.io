@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <title>Página Inicial</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" href="LogoDeep/1-ba82e4d9.ico">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+        body {
+            background-size: 100%;
+            background-image: url(VisionshaperGFX.webp);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            color: rgb(255, 255, 255);
+            background-color: black;
+            font-family: "Outfit", sans-serif;
+            font-size: 16px;
+        }
+
+        .bk_text {
+            display: flex;
+            flex-direction: column;
+            background-color: rgba(48, 49, 53, 0.81);
+            border-radius: 10px;
+            width: 75%;
+            margin-top: 40px;
+            margin-left: 13%;
+            padding: 20px;
+            margin-bottom: 120px;
+
+        }
+        
+        .roundimg{
+            border-radius: 10px;
+        }
+
+        .title {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            font-size: 100px;
+            font-family: "Cinzel", serif;
+        }
+        .titleMin {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            font-size: 3em;
+            font-family: "Cinzel", serif;
+        }
+
+        .big {
+            display: flex;
+            align-items: center;
+            margin-right: 5%;
+            font-family: "Cinzel", serif;
+            font-size: 2em;
+
+        }
+        .contClass{
+            display: flex;
+            flex-direction: row;
+            padding: 20px;
+            align-content: center;
+        }
+        .textImg{
+            padding-left: 2%;
+        }
+        #box {
+            display: flex;
+            padding-left: 5%;
+            font-weight: bolder;
+        }
+        img{
+            padding-bottom: 1%;
+            margin-right: 2%;
+        }
+        .imgSpace{
+            margin-left: 5%;
+        }
+        #box :hover {
+            color: rgb(0, 146, 0);
+        }
+
+        a {
+            color: white;
+            font-weight: bolder;
+        }
+
+        a:hover {
+            color: rgb(0, 146, 0);
+            transform: scale(1.15);
+        }
+
+        @media(max-width: 412px) {
+            body {
+                color: rgb(0, 93, 0);
+            }
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="logo_resized.png"></a>
+            <div class="big">Deepwoken</div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <br>
+                    <li class="nav-item" id="box">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item" id="box">
+                        <a class="nav-link active" aria-current="page" href="mob.html">Inimigos</a>
+                    </li>
+                    <li class="nav-item" id="box">
+                        <a class="nav-link disabled" aria-current="page" href="boss.html">Bosses</a>
+                    </li>
+                    <li class="nav-item" id="box">
+                        <a class="nav-link disabled" aria-current="page" href="hist.html">História</a>
+                    </li>
+                    <li class="nav-item" id="box">
+                        <a class="nav-link active" aria-current="page" href="att.html">Afinidades</a>
+                    </li>
+                    <li class="nav-item" id="box">
+                        <a class="nav-link active" aria-current="page" href="#"><u>Juramentos</u></a>
+                    </li>
+                    <li class="nav-item" id="box">
+                        <a class="nav-link active" aria-current="page" href="raca.html">Raças</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="O que você busca?" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <p class="title">Juramentos</p>
+    <div class="bk_text">
+        "Oaths", ou "juramentos", são pontos de vista e crenças que um personagem jura seguir até o dia em que cair. Eles servem principalmente para definir o potencial, a personalidade e a história do personagem do jogador, oferecendo um conjunto progressivo de habilidades juntamente com um conjunto de regras ou ações a serem seguidas. Os Oaths, assim como os "Murmurs" e "Resonances", são classificados como Cartões de Talento únicos que os jogadores obtêm apenas ao atender a certos requisitos.
+        <br><br>
+        Devido à natureza única de jurar um Oath, apenas um pode ser utilizado por vez. É possível quebrar um Oath no Shrine of Yun'Shul, mas... "é chamado de Oath por um motivo." Esteja ciente das consequências que vêm com a quebra de um Oath.
+        <br><br>
+        Todo personagem começa como um simples Pathfinder, o que significa que eles estão sem um Oath (mas não são devotos de ser Oathless). Ser um Pathfinder não oferece vantagens reais, mas pode protegê-lo de outros que precisem de Oath Kills para seu progresso, como Linkstriders ou Contractors, mas... não confie nisso.
+        <br><br>
+        Todo o dano causado por Oaths é um tipo de dano separado que é afetado apenas por modificadores de defesa Oathless ou gerais, como Reinforce ou Ardour Scream.
+        <hr>
+        <h1 class="titleMin">
+        Oaths Obtíveis
+        </h1>
+        <hr>
+        <h1 class="titleMin">
+            Arcwarder
+            </h1>
+         +1 Mantra Curinga, +2 Mantras de combate [20 Flamecharm, Thundercall, & Fortitude]
+        Para completar a missão de Alpha e progredir no juramento Arcwarder, siga estas etapas:
+            <br><br>
+        Vá para o Andar 2 e complete a missão de Alpha:
+        <br>
+        Ative o Gerador.<br>
+        Fale com Alpha para iniciar a missão.<br>
+        Recupere Epsi, que está ferido.<br>
+        Escolha a opção 2 ao falar com Epsi:<br>
+        <br>
+        Escolher a opção 2 salvará Epsi.
+        Escolher a opção 1 fará Epsi perecer devido aos parasitas. Epsi sempre estará fora das Cavernas Firfire quando você repetir o Andar 1, então você pode escolher a opção correta até a linha de missão ser concluída.
+        Morrer enquanto a missão está ativa:<br>
+
+        Morrer durante a missão não exigirá que você fale com Epsi novamente.
+        Volte para Alpha:
+        <br><br>
+        Após completar as etapas necessárias, certifique-se de voltar para Alpha. AVISO: Esta etapa é essencial, pois falhar em voltar para Alpha impedirá que você receba o juramento Arcwarder de Delta.
+        Requisitos:<br>
+
+        Certifique-se de ter 20 de Fortitude, 20 de Flamecharm e 20 de Thundercall.<br>
+        Volte para a superfície:
+        <br><br>
+        Depois de completar as tarefas necessárias, volte para a superfície e fale com Delta em Miner's Landing. Especificamente, Delta está localizado na parte inferior da montanha da cidade, atrás do moinho d'água, bem perto da cachoeira.
+        <br>
+        Progressão do Juramento:<br><br>
+
+        Para continuar progredindo com o Juramento Arcwarder, você deve matar Chaser ou Scion de Ethiron.
+        Ao completar estas etapas, você progredirá com sucesso no Juramento Arcwarder e na linha de missão associada.<br><br>
+        <hr>
+        <h1 class="titleMin">
+            Bladeharper
+            </h1>
+        
+         +2 Mantras de combate [75 MED ou 90 Estatísticas Cumulativas de Arma & 25 Strength ou Agility]
+        O juramento exige um total de 75 pontos em Arma Média, ou um total de 90 pontos cumulativos alocados em qualquer estatística de Arma, além de 25 de AGL (Agilidade) ou STR (Força). A arma equipada pelo jogador também não pode ser Punhos, caso contrário, a interação não iniciará a missão do juramento.
+        <br><br>
+        Interaja com uma das inúmeras Estátuas do Céu localizadas em ambos os Luminantes. Isso o transportará para Blade Within.
+        <br><br>
+        Derrote a Reflexão da Mente (uma cópia 1:1 de você mesmo, incluindo arma, talentos e mantras) para obter o juramento.
+        <br><br>
+        Ela usará todos os mantras que você possui, não apenas os que estão equipados. É melhor se livrar de mantras indesejados por meio de Deep Shrines se você não estiver pronto.<br>
+        Parece não ter os mesmos modificadores de mantra que você tem. Por exemplo: as Warden Blades do Frostdraw podem ficar maiores com pedras stratus, mas o espelho terá o tamanho original e provavelmente o nível original (não testado).<br>
+        O espelho tem 3 vidas, o que significa que você precisa matá-lo várias vezes para obter o juramento e o progresso. O indicador para cada morte será ele teleportando de volta para o centro enquanto ventila. Ele cai no chão, permitindo que você o execute depois de terminar.
+        <br><br>
+        Se você conseguir diminuir uma vida, você NÃO se curará com a morte e ele vai se regenerar. Bloqueie a respawn.<br>
+        <hr>
+        <h1 class="titleMin">
+            Blindseer
+            </h1>
+
+        +1 Mantra Curinga, +1 Mantra de apoio, +10 Sanidade [40 Willpower, Sofrer de Cegueira & Todos os 3 Talentos de Mental Fortress]<br>
+        Atender aos seguintes requisitos:<br>
+        Ter 40 Willpower<br>
+        Ter os 3 Talentos do conjunto Mental Fortress: Exercício de Respiração, Conquistar seus Medos e Descrença em rolagens de Talento, não em equipamento.<br>
+        Ser cego, seja pelo Talento "Cego" de uma Venda ou pelo fraqueza Cego.<br>
+        Vá para Erisia Inferior e siga até a vila dos bandidos passando pelo acampamento nas ruínas.
+        Acima da vila dos bandidos fica um templo. Suba o muro que faz fronteira com a vila para alcançá-lo.<br>
+        Suba acima das portas do templo ou passe por elas se estiverem abertas e prossiga para dentro do templo.<br><br>
+        Cuidado com o Observador guardando o templo, pois eles gerarão um Anjo Menor se o avistarem. Caso você derrote o anjo, é recomendado carregá-lo pelo templo, pois o observador não o detectará enquanto o anjo não tiver sido executado.
+        <br><br>
+        Uma vez dentro do templo, prossiga por uma passagem à esquerda.<br>
+
+        Dentro dessa sala, uma mensagem gravada pode ser encontrada. Interaja com este texto enquanto estiver cego (seja pela falha ou por uma venda)
+        <hr>
+        <h1 class="titleMin">
+            Contractor
+            </h1>
+             +2 Mantras de combate, +10 Éter [Sem Requisitos de Estatísticas]<br>
+        Obtenha reputação neutra ou positiva com o Ministério. Você pode verificar sua reputação em uma fogueira. Busque uma reputação positiva para estar seguro.<br>
+        Você pode obter isso por meio das caçadas de Imel, Emel e Rimil, se quiser, mas também pode ajudar o Ministério na Ilha do Verão (Summer Isle).<br> Uma boa maneira de fazer isso é derrubar e carregar um Batedor do Ministério, esperando os nômades matarem o outro e, em seguida, assassiná-los. Isso é muito menos eficiente do que fazer recompensas, dando apenas cerca de metade da reputação a cada conclusão.<br><br>
+        Você deve ajudar o Ministério 5 vezes (assumindo que você está começando com a reputação base do Ministério) na Ilha do Verão para que eles não vejam mais valor em lutar com você.<br>
+        A versão Bounty do Ministério leva cerca de 4-5 mortes. Você precisa lidar com aproximadamente 60% do dano ao alvo e mortes causadas por causas ambientais, e talentos como Bloodletter ou Fome, não contarão.<br>
+        Você também pode obter isso trocando conhecimento com Soothsayer (requer pelo menos 8 conhecimentos para ter reputação neutra com o Ministério).<br>
+        Também é aconselhável evitar matar Batedores do Ministério se você estiver procurando adquirir este juramento, a fim de manter sua reputação com o ministério o mais neutra possível.<br><br>
+        Comece a linha de missões Duke Erisia. Prossiga para obter crédito de morte para o Duque.<br><br>
+        Vá até o Lorde Regente e escolha o diálogo especial "Morda sua língua". (Esta etapa não é necessária; é mais seguro simplesmente nunca falar com o Lorde Regente até que você tenha feito tudo listado abaixo.)<br><br>
+        Faça um acordo com 4 Santuários Profundos diferentes. Qualquer Santuário, exceto o Santuário da Ordem, Santuário da Solidão e Santuário da Maestria (alocação de estatísticas) funciona, incluindo aqueles no Templo dos Corações. (A partir de agora, usar o Santuário da Maestria para reavaliar suas estatísticas não funciona.)<br><br>
+        Desbloqueie sua Ressonância.<br><br>
+        Vá até as Profundezas e fale com o santuário de Yun'Shul. Pergunte a ele "O que aconteceu com este lugar?" (OBSERVE QUE ISSO REQUER AS 4 INTERAÇÕES DO SANTUÁRIO PROFUNDO PRIMEIRO)<br><br>
+        Volte para o Regente e selecione "Não, mas eu sei da sua verdadeira natureza. Eu sei que você pretende repetir o que aconteceu em Celtor afogando Etris." Quando ele perguntar "...você está aqui para me impedir?...", depois selecione "Não, eu vim para me juntar a você.". Se você clicar na opção que diz que quer pará-lo, você NÃO será bloqueado de obter o Contractor, mas ele o matará ao escolher esse diálogo. Você tem permissão para voltar até ele para clicar na opção para se juntar a ele caso mude de ideia.
+        <hr>
+        <h1 class="titleMin">
+            Chainwarden
+            </h1>
+        +1 Mantra Curinga, +2 Mantras de combate [40 pontos compartilhados entre Força, Fortitude e Força de Vontade]<br>
+        O juramento requer pelo menos 40 pontos combinados em Força, Fortitude e Força de Vontade, como 20 Força, 5 Fortitude e 15 Força de Vontade ou 0 Força, 30 Fortitude e 10 Força de Vontade (Você pode ter mais de 40 nessas três estatísticas).<br>
+        Fale com o Vice-diretor Morredh em Fort Merit com reputação de Amigo ou superior e recupere um refém abaixo das Ruínas do Castelo em Summer Isle.<br>
+        Depois de falar para o refém abaixo do prédio, volte para cima da escada. Isso gerará Emar Vend, um Chainwarden desonesto empunhando uma Darksteel Greatsword. Ao derrotá-lo, você receberá o Juramento. (Observe que, se mais de uma pessoa tentar obter o Juramento, Emar Vend gerará apenas UMA VEZ. Quem o gerar obtém o Juramento do aperto, mas, depois de receber o crédito de morte, volte para o Vice-diretor Morredh e ele lhe dará o Juramento.)
+        <hr>
+        <h1 class="titleMin">
+            Dawnwalker
+            </h1>
+        +2 Mantras de combate [Sem Requisitos de Estatísticas]<br>
+        Fale com Klaris Llfiend, Mãe das Luzes no Castelo da Luz e peça para aprender o segredo da "magia radiante". Isso custa 30 Medalhões Kyrsan e lhe dá o juramento base, junto com o Mantra Blinding Dawn.
+        <br><br>
+        Você pode aprimorar o juramento em troca de 15 Medalhões Kyrsan (por habilidade) falando com Klaris novamente. O custo total para melhorar o juramento do início ao máximo é de 75 Medalhões. A ordem em que você recebe os aprimoramentos é:
+        <br>
+        Blinding Dawn ao obter o juramento (30 medalhões)<br>
+        Radiant Kick (15 medalhões)<br>
+        Protagonist Syndrome e Radiant Dawn (15 medalhões)<br>
+        Absolute Radiance + Luminous Flash (15 medalhões)
+        <hr>
+        <h1 class="titleMin">
+            Fadetrimmer
+            </h1> 
+        +1 Mantra Curinga, +1 Mantra de combate [Sem Requisitos de Estatísticas]<br>
+        Atenda aos seguintes requisitos e fale com um barbeiro sobre Corte de Cabelo:<br>
+
+        Poder 12+.<br>
+        Mude seu cabelo 15 vezes em qualquer Barbeiro (não é necessário que os cabelos sejam únicos, restaurar para seu cabelo natural 15 vezes também conta).
+        Se você já tiver mudado seu cabelo o suficiente antes de atingir o poder 12, não precisará repetir essa etapa.<br>
+        Fale com o barbeiro e escolha a opção "Como você consegue fazer todas essas coisas?", continue o diálogo e peça para fazer o juramento.
+
+        <hr>
+        <h1 class="titleMin">
+            Jetstriker
+            </h1>
+        +1 Mantra Curinga, +1 Mantra de mobilidade, +8 Agilidade Passiva, +5 Saúde [50 Agility]<br>
+        Tenha pelo menos 50 de Agilidade.<br>
+        Fale com Alirian no Lago Congelado de Minityrsa, muito além do Rogue Construct, após a ponte e na crista à esquerda.<br>
+        Derrote Alirian em uma corrida até um ponto específico marcado com um marcador amarelo.<br>
+        Isso pode ser facilmente feito com sua agilidade atual, além da capacidade de escalar paredes altas ao longo do percurso.<br>
+        Aguarde abaixo do marcador amarelo. Se você bater nela e depois andar até ela, contará como uma derrota, então o melhor é apenas esperar até que ela pare no marcador também.
+        
+        <hr>
+        <h1 class="titleMin">
+            Linkstider
+            </h1> +1 Mantra Curinga, +2 Mantras de apoio [Sem Requisitos de Estatísticas]<br>
+        Método do Catalisador da Entropia:<br><br>
+
+        Derrube 4 jogadores diferentes com Juramentos.<br>
+        Leve-os até o Catalisador da Entropia.<br>
+        Coloque-os nos crateres, sacrificando-os.<br>
+        Como o Catalisador da Entropia é uma zona do vazio, eles serão enviados para as profundezas.<br>
+        Interaja com o orbe branco que aparece no meio.<br>
+        Método da Lótus Pristina:<br><br>
+
+        Colete 4 Lótus Pristinas localizadas ao redor do Catalisador da Entropia.<br>
+        Segure 4 jogadores com Juramentos. Pode ser o mesmo jogador.<br>
+        Ao segurar um jogador com um Juramento, uma das suas Lótus Pristinas será convertida em uma Lótus Escarlate.<br>
+        Retorne ao Catalisador da Entropia com 4 Lótus Escarlates.<br>
+        Interaja com o orbe branco que aparece no meio.<br>
+        Nota adicional: Você pode usar uma combinação de jogadores derrubados e Lótus Escarlates.
+
+        <hr>
+        <h1 class="titleMin">
+            Oathless
+            </h1> 
+            +2 Mantra Curinga, +20% Resistência ao dano de Oath, +10 HP [Sem Requisitos de Estatísticas]<br>
+        Para iniciar a missão do Oathless, vá até os docas em Miner's Landing e passe pela entrada. Suba até o Místico à frente e vire à direita, caminhando até encontrar um tronco na beira do penhasco, de frente para a rodovia do mar. Através deste tronco, há uma caverna onde você encontrará Cerulean, encostado na parede. Eles irão informá-lo de que, para entender a liberdade de ser Oathless, você deve procurar por seus discípulos.<br><br>
+
+        Se você já obteve o Oathless, pode falar com Cerulean novamente para desbloqueá-lo permanentemente. Isso pula a missão em todos os seus personagens/slots, mesmo que o personagem/slot tenha sido criado antes de você desbloquear permanentemente o Oathless.<br><br>
+
+        Embora a ordem não seja importante, a seguinte ordem é recomendada:<br><br>
+
+        Viridian está localizado em Fort Merit, em uma casa perto do elevador.<br>
+        Saffron está localizado em Meteor Isle, em uma casa de 2 andares.<br>
+        Celadon está localizado em Summer Isle, no segundo andar do guildhall.<br>
+        Depois de falar com todos os três discípulos, retorne a Cerulean para receber o juramento.
+
+        <hr>
+        <h1 class="titleMin">
+            Saltchemist
+            </h1>  
+            +1 Mantra Curinga, +1 Mantra de apoio, +20 Carry Load [75 Intelligence]<br>
+        1. Faça pelo menos uma poção para Ciea. Não é necessário aprender a localização de Adrofalis antes de iniciar o juramento.<br><br>
+
+        2. Obtenha 75 de Inteligência. Não é necessário desfazer vínculos. Fazer isso, junto com a poção feita para Ciea, abrirá o diálogo com Adrofalis.<br><br>
+
+        3. Em Ferryman's Library, Adrofalis pedirá que você faça um resíduo. Traga os seguintes ingredientes:<br><br>
+
+        Celestial Ichor, o sangue de um Celestial. Vá até Derelict Highchurch e use uma garrafinha no poço de sangue do Celestial crucificado.<br>
+        Você pode perder uma vida, resetar e ir para as profundezas sem que o ichor seja removido, o que significa que você não perderá o ichor. Você também pode beber um pouco do ichor e ele ainda funcionará.<br>
+        Stardust de uma Star Tree. Considere pegar um segundo, que será necessário para prosseguir com o Juramento.<br>
+        Qualquer Lótus, que pode ser encontrada na maioria das Voidzones. Saramaed Summit é relativamente perto de Starfield Veldt, então é uma boa opção para pegar algumas.<br><br>
+        4. Reúna esses ingredientes e retorne a Adrofalis, que lhe concederá o juramento.<br><br>
+
+        5. Ao obter o juramento, você ganha a Perpetual Distillery; três agulhas no seu braço. Elas mudam de cor dependendo da poção que é inserida.
+
+        <hr>
+        <h1 class="titleMin">
+            Silentheart
+            </h1>  
+            +10 Saúde, +2 Posture [Sem Attunement, 75 Weapon, 25 Strength, 25 Agility/Charisma]<br>
+        Atenda aos seguintes requisitos, em qualquer ordem:<br><br>
+
+        Ser sem Atunenment (Attunementless).<br>
+        Ter um total de 75 pontos em Armas (LHT, MED, HVY contam, você pode fazer 25/25/25, por exemplo).<br>
+        Ter 25 pontos em Força.<br>
+        Ter 25 pontos em Charisma ou Agilidade.<br>
+        Morrer para um jogador que use um atunenment. Chime of Conflict não conta, nem ser capturado no Segundo Andar com um Light Hook.<br>
+        Depois de atender a todos os requisitos, vá até Beloved Zofia no Voidsea para falar com The Dreadstar.<br><br>
+
+        Falhar em atender qualquer um dos primeiros 3 requisitos fará com que o Dreadstar diga que você não tem aptidão.<br>
+        Se você não morreu para um jogador com atunenment, The Dreadstar dirá "Você falta foco em sua raiva".
+
+        <hr>
+        <h1 class="titleMin">
+            Starkindred
+            </h1>   
+            +2 Mantras de combate, +8 Saúde [40 Strength]<br>
+        Tenha 40 de Força e capture qualquer jogador. (Chime of Conflict não conta)<br><br>
+
+        Fale com Samael, localizado na Derelict Highchurch, acima da Voidzone nas Ancient Rotlands.<br>
+        Caminhe até as escadas do Songseeker Temple e vire à esquerda, você verá uma ponte quebrada. Pule sobre a ponte para chegar até a igreja. Ou, se você tiver o Union Hook, há dois ganchos na parte de trás da igreja que levam diretamente até ela.<br>
+        Quando estiver dentro, há uma armadilha atrás do púlpito. Desça pela escada e ande pela biblioteca, interagindo com um livro vermelho em uma prateleira; um deles abrirá uma sala.<br>
+        Mate Iblis, o Anjo Caído, localizado acima da Starfield Grove Voidzone, no Starswept Valley. O anjo só estará lá se você tiver a missão ativa.<br>
+        Se você não tiver o Union Hook, uma cautelosa parkour à direita da Starfield Grove (fora dela) pode permitir que você chegue às partes mais altas. Também há uma grande rocha inclinada à esquerda de The Lordsgrove que leva diretamente à Voidzone.<br><br>
+        Volte para Samael para obter o juramento.
+
+
+        <hr>
+        <h1 class="titleMin">
+            Visionshaper
+            </h1>    
+            +2 Mantras de combate, +1 Mantra de apoio [50 Charisma]<br>
+        Atenda aos seguintes requisitos:<br><br>
+
+        50 de Carisma<br>
+        Complete O Encontro de Aelita, encontrado no Valley of Heroes quando não for inverno, pelo menos uma vez.<br>
+        Tenha uma Dark Feather (Pena Negra) em sua posse.<br>
+        Encontre Surge, localizado dentro da Widow Cave na The Depths.<br>
+        Dê a Dark Feather para Surge. Surge se transformará em OwlSurge e a área será suavemente alterada.<br>
+        Ao sair da sala de Surge, você se encontrará em um A Conscious Intersection.<br>
+        Não caia no vazio, pois isso o enviará para o Layer 2 sem um lighthook.<br>
+        Fale com o Mente do Ninho, garantindo que você escolha as primeiras opções. Quando o Mente do Ninho mencionar comida, selecione "Eu aceito" para fazer o juramento.<br>
+        Recusar-se a se tornar a comida do Mente do Ninho fará com que ele roube sua Dark Feather e o teletransportará de volta para a realidade.
+
+
+
+    </div>
+
+
+
+
+
+
+    <footer>
+        <div class="card" data-bs-theme="dark">
+            <div class="card-header">
+                Acesso à comunidade e Contato
+            </div>
+            <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                    <p>
+                    <h6>Comunidade: <a href="https://discord.com/invite/deepwoken">Deepwoken Discord</a><br>Contato: 19
+                        99712-5652 <br> Não encontrou o que procura?
+                        Busque na wiki oficial do jogo: <a
+                            href="https://deepwoken.fandom.com/wiki/Deepwoken_Wiki">Deepwoken Wiki</h6>
+                    </p></a>
+                </blockquote>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>
